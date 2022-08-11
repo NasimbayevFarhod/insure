@@ -1,0 +1,65 @@
+
+
+.article__inner
+{
+  padding: 70px 80px;
+  display: flex;
+  align-items: center;
+  background-image: url(../../images/article-section.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+.article__title
+{
+  max-width: 475px;
+  margin-right: auto;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  color: #FFFFFF;
+}
+
+.btn-link
+{
+  margin: 0;
+}
+
+
+@media only screen and (max-width:900px)
+{
+        
+  .article__inner
+  {
+    padding: 70px 24px;
+    flex-direction: column;
+  }
+  
+  .article__title
+  {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .btn-link
+  {
+    margin-top: 40px;
+  }
+  
+}
+
+@media only screen and (max-width:450px)
+{
+  .article__title
+  {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.555556px;
+    color: #FFFFFF;
+  }
+}

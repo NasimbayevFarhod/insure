@@ -1,0 +1,50 @@
+/* GENERAL */
+
+:root
+{
+  --darc-color:#2C2830;
+  --gray-color:#837D88;
+  --darc-bloo:#2D2641;
+  --bloo-color:#96A9C6;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+html{
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img , svg{
+  display: block;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Karla';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  background-color: #F2F2F2;
+}
+
+/* STICKY-FOOTER */
+.site-main{
+  flex-grow: 1;
+}
