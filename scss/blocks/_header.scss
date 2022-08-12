@@ -83,12 +83,15 @@
 
   .navbar
   {
+
     display: none;
     position: absolute;
     width: 100%;
+    height: 100vh;
     padding: 40px 0 300px;
     background-color: #2C2830;
-    top: 80px;
+    z-index: 9;
+    top: 70px;
     left: 0;
     background-image: url(../../images/decoration-hero.svg);
     background-repeat: no-repeat;
@@ -98,6 +101,11 @@
   .nav--active
   {
     display: block;
+  }
+
+  .close
+  {
+    background-image: url(../../images/nav-button-close.svg);
   }
 
   .navbar__list
